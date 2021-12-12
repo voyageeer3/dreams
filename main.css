@@ -25,10 +25,9 @@ h6 {
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0px 15px
 }
 
 .header {
@@ -43,30 +42,30 @@ h6 {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4cbcfc', endColorstr='#3790d9', GradientType=1);
 }
 
-.header__inner {
+.wrapper {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
+    align-items: center;
 }
 
-.header__desk {
+.offer__desk {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.header__title {
-    margin-top: 110px;
+.offer__title {
     width: 560px;
     color: white;
     font-weight: bold;
     font-size: 37px;
     line-height: 1.3;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.header__title span {
+.offer__title span {
     font-size: 59px;
 }
 
-.header__text {
+.offer__text {
     margin-top: 50px;
     width: 400px;
     color: white;
@@ -76,7 +75,11 @@ h6 {
     font-weight: 400;
 }
 
-.header__btn {
+.offer__img {
+    max-width: 100%;
+}
+
+.offer__btn {
     margin-top: 45px;
 }
 
@@ -98,7 +101,7 @@ h6 {
 }
 
 .future {
-    padding: 120px;
+    padding: 120px 0;
     font-family: 'Ubuntu', sans-serif;
 }
 
@@ -185,7 +188,7 @@ h2 {
 
 .footer {
     background-color: #164d7a;
-    padding: 50px 0;
+    padding: 25px 0;
 }
 
 .footer__text {
