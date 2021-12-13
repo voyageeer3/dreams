@@ -25,9 +25,10 @@ h6 {
 }
 
 .container {
-    width: 1170px;
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header {
@@ -73,10 +74,6 @@ h6 {
     line-height: 1.7;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-}
-
-.offer__img {
-    max-width: 100%;
 }
 
 .offer__btn {
@@ -197,3 +194,34 @@ h2 {
     font-size: 17px;
     font-family: ' Open Sans ' sans-serif;
 }
+
+
+/*Responsive*/
+
+
+/* 992px - 1200px */
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 960px;
+    }
+}
+
+
+/* 768px - 992px */
+
+@media screen and (max-width: 992px) {
+    .wrapper {
+        flex-wrap: wrap;
+    }
+}
+
+
+/* 576px - 768px */
+
+@media screen and (max-width: 768px) {}
+
+
+/* 320px - 576px */
+
+@media screen and (max-width: 576px) {}
