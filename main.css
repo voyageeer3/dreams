@@ -25,10 +25,9 @@ h6 {
 }
 
 .container {
-    width: 1200px;
+    width: 1170px;
     max-width: 100%;
     margin: 0 auto;
-    padding: 0 15px;
 }
 
 .header {
@@ -76,6 +75,12 @@ h6 {
     font-weight: 400;
 }
 
+.offer__img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
 .offer__btn {
     margin-top: 45px;
 }
@@ -111,7 +116,7 @@ h2 {
 }
 
 .future__inner {
-    display: inline-flex;
+    display: flex;
     text-align: center;
 }
 
@@ -196,7 +201,7 @@ h2 {
 }
 
 
-/*Responsive*/
+/* Responsive */
 
 
 /* 992px - 1200px */
@@ -211,17 +216,78 @@ h2 {
 /* 768px - 992px */
 
 @media screen and (max-width: 992px) {
+    .container {
+        width: 720px;
+        margin: 0 auto;
+    }
+    .header {
+        text-align: center;
+    }
     .wrapper {
         flex-wrap: wrap;
+        justify-content: center;
+    }
+    .offer__text {
+        margin: 0 auto;
+        padding-top: 30px;
+        display: flex;
     }
 }
 
 
 /* 576px - 768px */
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 520px;
+    }
+    .future {
+        padding: 60px 0 40px;
+    }
+    .future__inner {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .future__item {
+        padding-bottom: 20px;
+    }
+}
 
 
 /* 320px - 576px */
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .container {
+        width: autopx;
+    }
+    .offer__title {
+        padding-top: 20px;
+        width: auto;
+        font-size: 14px;
+        line-height: auto;
+    }
+    .offer__title span {
+        width: auto;
+        font-size: 20px;
+    }
+    .offer__text {
+        width: auto;
+        font-size: 14px;
+        line-height: auto;
+    }
+    .ticket {
+        padding: 40px 0;
+    }
+    .title {
+        font-size: 25px;
+        margin-bottom: 30px;
+    }
+    .input {
+        width: auto;
+    }
+    .btn--ticket {
+        padding: 15px 30px;
+    }
+}
